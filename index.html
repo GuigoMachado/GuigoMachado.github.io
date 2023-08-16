@@ -3,6 +3,95 @@
   <head>
     <meta charset="UTF-8">
     <title>Portfólio de Guilherme Machado</title>
+    <style>
+      body{
+        background-color: rgb(208, 244, 222);
+        font-size: 15px;
+        text-align: center;
+      }
+
+      h1 {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        background-color: rgb(255, 255, 255);
+      }
+      
+      ul {
+        font-family: 'Courier New', Courier, monospace;
+        list-style-type: disc;
+        }
+
+      p {
+        font-family: monospace;
+      }
+
+      h2 {
+        font-family: 'Courier New', Courier, monospace;
+        background-color: rgb(255, 255, 255);
+      }
+
+      h3{
+        font-family: 'Courier New', Courier, monospace;
+        background-color: rgb(255, 255, 255);
+      }
+
+      h4{
+        font-family: 'Courier New', Courier, monospace;
+        background-color: rgb(255, 255, 255);
+      }
+
+      h5{
+        font-family: 'Courier New', Courier, monospace;
+      }
+      a{
+        font-family: 'Courier New', Courier, monospace;
+      }
+
+      #basic-info {
+        background-color: rgb(252, 246, 189);
+      }
+
+      #photoshop {
+        background-color: rgb(169, 222, 249);
+      }
+
+      #photoshop-text {
+        background-color: rgb(169, 222, 249);
+      }
+
+      #photoshop-button {
+        background-color: rgb(169, 222, 249);
+      }
+
+      #illustrator {
+        background-color: rgb(252, 246, 189);
+      }
+
+      #illustrator-button {
+        background-color: rgb(252, 246, 189);
+      }
+
+      #illustrator-text {
+        background-color: rgb(252, 246, 189);
+      }
+
+      #indesign {
+        background-color: rgb(255, 153, 200);
+      }
+
+      #indesign-button {
+        background-color: rgb(255, 153, 200);
+      }
+
+      #indesign-text {
+        background-color: rgb(255, 153, 200);
+      }
+
+      .list {
+        font-size: 20px;
+      }
+
+    </style>
+
   </head>
   <body>
 
@@ -18,8 +107,9 @@
 
     <h2 id="descricao">Descrição</h2>
 
-    <p>Tenho 32 anos de idade, e sou natural de São Paulo/SP. Atualmente resido em Porto Feliz/SP.<br><br> 
-        Iniciei minha carreira como publicitário através da agência <strong>Havas Worldwide</strong>.
+    <p id="basic-info">Tenho 32 anos de idade, <strong>Brasileiro</strong> e natural de São Paulo/SP.<br> Atualmente resido em Porto Feliz/SP.</p>
+        
+        <p>Iniciei minha carreira como publicitário através da agência <strong>Havas Worldwide</strong>.
         Onde fui contratado como <em>Assistente de Arte</em> a nível de estagiário, sendo
         posteriormente efetivado. Era responsável por <em>criar, alterar e ﬁnalizar peças
         publicitárias</em>. Durante essa experiência, aprendi a reﬁnar minhas referências
@@ -34,27 +124,29 @@
 
         <h4>Design Gráfico</h4>
         <ul>
-            <li><a href="#photoshop"><strong>Photoshop</strong></a></li>
-            <li><a href="#illustrator"><strong>Illustrator</strong></a></li>
-            <li><a href="#indesign"><strong>InDesign</strong></a></li>
-            <li>After Effects</li>
-            <li>Premiere</li>
+            <li id="photoshop-button" class="list"><a href="#photoshop"><strong>Photoshop</strong></a></li>
+            <li id="illustrator-button" class="list"><a href="#illustrator"><strong>Illustrator</strong></a></li>
+            <li id="indesign-button" class="list"><a href="#indesign"><strong>InDesign</strong></a></li>
+            <li class="list">After Effects</li>
+            <li class="list">Premiere</li>
         </ul>
 
         <a href="https://www.behance.net/guimachadoart" target="_blank">Porftólio Artístico</a><br><br>
         
         <h4>Programação</h4>
         <ul>
-            <li>C#</li>
-            <li>HTML</li>
-            <li>JavaScript</li>
+            <li class="list">C#</li>
+            <li class="list">HTML</li>
+            <li class="list">JavaScript</li>
         </ul>
 
-        <br><br>
+        <br>
+
+        <h4>Descrição das habilidades</h4>
 
         <h5 id="photoshop">Photoshop</h5>
 
-        <p> O Adobe Photoshop é um software versátil e poderoso que revoluciona 
+        <p id="photoshop-text"> O Adobe Photoshop é um software versátil e poderoso que revoluciona 
             o mundo da imagem digital e do design gráfico. Projetado tanto para amadores quanto 
             para profissionais, o Photoshop oferece uma ampla gama de ferramentas e recursos 
             que permitem aos usuários manipular, aprimorar e criar visuais impressionantes. 
@@ -82,7 +174,7 @@
 
             <h5 id="illustrator">Illustrator</h5>
 
-            <p>O Adobe Illustrator é uma ferramenta indispensável no universo do design gráfico e da ilustração digital. 
+            <p id="illustrator-text">O Adobe Illustrator é uma ferramenta indispensável no universo do design gráfico e da ilustração digital. 
             Com recursos poderosos e uma abordagem baseada em vetores, o Illustrator possibilita a criação de gráficos 
             escaláveis e precisos, ideais para logos, ícones, ilustrações e muito mais. Sua interface intuitiva e 
             ampla variedade de ferramentas permitem que designers criem formas geométricas complexas, manipulem linhas 
@@ -98,13 +190,13 @@
             utilizam o Illustrator para desenvolver esboços de roupas e estampas com precisão, permitindo a visualização detalhada 
             de cada peça antes da produção. Com sua capacidade de exportar arquivos em diversos formatos, o Illustrator oferece 
             flexibilidade na integração de suas criações em projetos impressos, digitais e até mesmo animados, tornando-o uma 
-            ferramenta essencial para aqueles que buscam materializar suas ideias com uma dose extra de criatividade e profissionalismo.</p>
+            ferramenta essencial para aqueles que buscam materializar suas ideias com uma dose extra de criatividade e profissionalismo.</p><br>
 
 
 
             <h5 id="indesign">InDesign</h5>
 
-            <p>O Adobe InDesign é uma ferramenta essencial no campo da editoração eletrônica e design de layout. 
+            <p id="indesign-text">O Adobe InDesign é uma ferramenta essencial no campo da editoração eletrônica e design de layout. 
             Projetado para criar layouts de alta qualidade para impressão e mídia digital, o InDesign oferece um ambiente robusto 
             para a composição de revistas, livros, folhetos, catálogos e outros materiais visuais complexos. Com recursos avançados 
             de tipografia e controle preciso sobre a formatação de texto, o software permite que designers organizem conteúdo de 
@@ -119,7 +211,7 @@
             para produzir anúncios elegantes e materiais promocionais. Além disso, sua habilidade de gerar documentos mestres e 
             estilos de parágrafo/sentença garante consistência visual em projetos complexos. Seja para criar layouts de revistas 
             deslumbrantes ou produzir catálogos comerciais de alta qualidade, o Adobe InDesign se destaca como uma ferramenta 
-            fundamental para designers e profissionais que buscam apresentações visuais de primeira linha em qualquer meio.</p>
+            fundamental para designers e profissionais que buscam apresentações visuais de primeira linha em qualquer meio.</p><br>
 
             <a href="#topo">Voltar ao topo.</a>
 
